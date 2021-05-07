@@ -14,7 +14,7 @@ form.addEventListener("submit", function(e) {
             {transform: 'translateX(2px)'},
             {transform: 'translateX(-2px)'},
             {transform: 'translateX(2px)'}
-        ], 200);
+        ], 200)
         e.preventDefault();
     }
 }, false)
