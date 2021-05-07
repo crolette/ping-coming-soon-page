@@ -34,12 +34,14 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- Custom CSS variables
 - CSS Grid
 - Mobile-first workflow
 
 ### Continued development
 
-I am always struggling with responsive layout. Need to improve or find a better way to make my layout responsive while coding.
+Validation form 
+
 
 ## Author
 
