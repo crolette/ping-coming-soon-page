@@ -9,7 +9,12 @@ form.addEventListener("submit", function(e) {
     if (email.validity.valueMissing || !email.value.match(mailformat)) {
         email.classList.add("error");
         error.classList.add("active");
-        email.focus();
+        email.animate([
+            {transform: 'translateX(-2px)'},
+            {transform: 'translateX(2px)'},
+            {transform: 'translateX(-2px)'},
+            {transform: 'translateX(2px)'}
+        ], 200);
         e.preventDefault();
     }
 }, false)
